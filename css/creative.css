@@ -429,3 +429,17 @@ body {
 .mail i {
   margin-bottom: 10px;
 }
+.team img {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  #about-queen h2 {
+    padding: 40px 0;
+    background-image: url(../img/smith-logo.png), url(../img/queens-logo.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 130px, 150px;
+    background-position: right, left;
+  }
+}
